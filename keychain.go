@@ -460,6 +460,7 @@ type QueryResult struct {
 	Label            string
 	Description      string
 	Comment          string
+	Generic		 string
 	Data             []byte
 	CreationDate     time.Time
 	ModificationDate time.Time
